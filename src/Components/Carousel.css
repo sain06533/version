@@ -1,0 +1,27 @@
+.card_objects{
+    max-width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.main_card1, .main_card2{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.card{
+    max-width: 30%;
+    border: 2px solid rgb(231, 183, 25);
+    margin: 5px;
+    height: 40%;
+    
+}
+.card2{
+    max-width: 30%;
+    border: 2px solid rgb(231, 183, 25);
+    margin: 5px;
+    height: 40%;
+}

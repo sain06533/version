@@ -1,0 +1,19 @@
+.s_head{
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.s_navbar_button{
+    background-color: white;
+    border: none;
+    border-bottom: 5px solid white;
+}
+.s_navbar_button:hover{
+    border-bottom: 5px solid red;
+}
+.imgs{
+    display: flex;
+}
+img{
+    max-width: 50%;
+}

@@ -1,0 +1,40 @@
+.title{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+h4{
+    margin: auto
+}
+.s_half_element{
+    margin-left:2%;
+    max-width: 30%;
+    text-align: left;
+}
+.s_h4{
+    text-align: center;
+
+}
+.s_half_element_image{
+    max-width: 100%;
+}
+.s_half_elements_main{
+    margin-top:5% ;
+    display: flex;
+}
+.carou{
+    margin-left:2% ;
+}
+.unknown_main{
+    margin-left: 5%;
+    display: flex;
+}
+.unknown_main_obj1{
+    height: 400px;
+    width:50%;
+    background-color: aqua;
+    
+}
+.unknown_dates{
+    margin-left:5% ;
+    text-align: left;
+}
