@@ -17,3 +17,20 @@
 img{
     max-width: 50%;
 }
+@media (max-width: 768px) {
+    .s_head {
+      display: none; /* Hide the regular links on smaller screens */
+    }
+  
+    .s_nav_menu {
+      display: block; /* Show the mobile menu button */
+    }
+  }
+
+  @media (min-width: 768px) {
+    
+  
+    .s_nav_menu {
+      display: none; /* Show the mobile menu button */
+    }
+  }
