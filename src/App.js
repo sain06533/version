@@ -7,20 +7,20 @@ import Committes from './Components/Committes';
 function App() {
   const RouterObj=createBrowserRouter([
     {
-      path:'/',
+      path:'/version',
       element:<RootLayout />,
       children:
       [
         {
-          path:'/',
+          path:'/version',
           element:<Home/>
         },
         {
-          path:'/register',
+          path:'/version/register',
           element: <Registration />
         },
         {
-          path:'/committees',
+          path:'/version/committees',
           element: <Committes />
         }
       ]
