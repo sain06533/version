@@ -4,6 +4,7 @@ function Registration() {
   return (
     
     <div>Registration
+      page yet to be coded
     </div>
   )
 }

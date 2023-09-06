@@ -11,11 +11,11 @@ function Header() {
             <img src={LetterHead} alt='' />
         </div>
         <div className='s_head'>
-            <button className='s_navbar_button'><Link to="/">Home</Link></button>
+            <button className='s_navbar_button'><Link to="/version">Home</Link></button>
             
-            <button className='s_navbar_button'><Link to="/committees">Committees</Link></button>
+            <button className='s_navbar_button'><Link to="/version/committees">Committees</Link></button>
             
-            <button className='s_navbar_button'><Link to="/register">Registration</Link></button>
+            <button className='s_navbar_button'><Link to="/version/register">Registration</Link></button>
             <button className='s_navbar_button'>Program</button>
             <button className='s_navbar_button'>Submisssion</button>
             <button className='s_navbar_button'>Calls</button>

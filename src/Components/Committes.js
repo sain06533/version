@@ -2,9 +2,8 @@ import React from 'react'
 import './Committes.css'
 function Committes() {
   return (
-    <div>Committes
-
-      after error
+    <div>Committes 
+      page yet to be coded
     </div>
   )
 }
