@@ -23,7 +23,7 @@ function Home() {
   return (
     <div>
         <div className='home'>
-            <h1 className='title'>1st VNR ICAMAIDSSA 2024 will be held as an on-site conference in Hyderabad, India with an option to present remotely</h1>
+            <h1 className='title'>International Conference on Advances in  Mathematics,  Intelligent Machines and Security</h1>
             <h4>The Registration is open!</h4>
         </div>
         <h1 className='about-vnr'>ABOUT VNR</h1>
@@ -36,7 +36,7 @@ Today, with this philosophy, Vignana Jyothi has created an edifice that is stron
     </div>
         <div className='s_half_elements_main'>
           <div className='s_half_element'>
-              <h2>VNR ICAMAIDSSA 2024 - EAI 1st International Conference on Intelligent Systems and Machine Learning</h2>
+              <h2>VNR ICAMIMS 2024 - EAI 1st International Conference on Intelligent Systems and Machine Learning</h2>
               <hr></hr>
                 
               <h4 className='s_h4'>Venue</h4>
@@ -64,10 +64,10 @@ Today, with this philosophy, Vignana Jyothi has created an edifice that is stron
             </div>
         </div>
         <div className='info-button'>
-        <button onClick={toggleVisibility1} className='info-buttons'>About ICAMAIDSSA</button>
+        <button onClick={toggleVisibility1} className='info-buttons'>About ICAMIMS</button>
       {isVisible1 && (
         <div className='about-comp'>
-          <p>ICETDSAAM 2024 promises to be an intellectually stimulating event, fostering interdisciplinary dialogues between the realms of data science and advanced mathematics. As the world enters an era driven by data-driven decision-making and mathematical innovation, this conference serves as a pivotal platform for shaping the future of these domains, unlocking new possibilities for research, collaboration, and technological advancement.ICETDSAAM 2024 aims to provide a dynamic platform for researchers, practitioners, and scholars from around the globe to engage in robust discussions, share innovative insights, and collectively explore the synergies between data science applications and advanced mathematical methodologies.</p>
+          <p>ICAMIMS 2024 promises to be an intellectually stimulating event, fostering interdisciplinary dialogues between the realms of data science and advanced mathematics. As the world enters an era driven by data-driven decision-making and mathematical innovation, this conference serves as a pivotal platform for shaping the future of these domains, unlocking new possibilities for research, collaboration, and technological advancement.ICETDSAAM 2024 aims to provide a dynamic platform for researchers, practitioners, and scholars from around the globe to engage in robust discussions, share innovative insights, and collectively explore the synergies between data science applications and advanced mathematical methodologies.</p>
         </div>
       )}
 
@@ -100,7 +100,6 @@ Today, with this philosophy, Vignana Jyothi has created an edifice that is stron
       {isVisible3 && (
         <div>
           <p>Here is the hidden information for Button 3.</p>
-          <p>You can add any content you want here.</p>
         </div>
       )}
       </div>
