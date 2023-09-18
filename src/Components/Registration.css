@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+.cta {
+    display: inline-block;
+    background-color: rgb(3, 208, 208);
+    color: #fff;
+    padding: 10px 10px 10px 10px;
+    margin: 5%;
+    text-decoration: none;
+    border-radius: 5px;
+    scale: 1.25;
+  }
+  .webpage{
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+    text-align: justify;
+  
+}
+
+.main{
+    margin-left: 5%;
+    margin-right: 5%;
+}
