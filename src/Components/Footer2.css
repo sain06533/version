@@ -1,0 +1,47 @@
+/* Footer1.css */
+
+/* Style for the overall footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  /* Style for the container inside the footer */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  /* Style for each column within the footer */
+  
+  
+  /* Style for the <h4> elements */
+  .footer-column-1,.footer-column-2,.footer-column-3 h4 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  /* Style for the <p> elements */
+  .footer-column-1,.footer-column-2,.footer-column-3 p {
+    font-size: 0.9rem;
+  }
+  
+  /* Style for the links and icons */
+  .footer-column-1,.footer-column-2,.footer-column-3 a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 1rem;
+    transition: color 0.3s;
+  }
+  
+  .footer-column-3 a:hover {
+    color: #007bff; /* Change the color on hover (you can customize this) */
+  }
+  
+  /* Style for the external link icon */
+  .footer-column-2 a .fa-external-link-alt {
+    vertical-align: middle;
+  }
+ 
