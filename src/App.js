@@ -18,10 +18,6 @@ function App() {
         {
           path:'/version/register',
           element: <Registration />
-        },
-        {
-          path:'/version/program',
-          element: <Program />
         }
       ]
     }

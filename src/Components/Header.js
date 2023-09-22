@@ -21,7 +21,7 @@ function Header() {
             <button className='s_navbar_button' onClick={scrollToItem}>Committees</button>
             
             <button className='s_navbar_button'><Link to="/version/register">Registration</Link></button>
-            <button className='s_navbar_button'><Link to="/version/program">Program</Link></button>
+            <button className='s_navbar_button'>Program</button>
             <button className='s_navbar_button'>Submisssion</button>
             <button className='s_navbar_button'>Calls</button>
             <button className='s_navbar_button'>Practical Info</button>
