@@ -3,7 +3,7 @@ import Home from './Components/Home';
 import RootLayout from './Components/RootLayout';
 import { createBrowserRouter, RouterProvider,} from "react-router-dom";
 import Registration from './Components/Registration';
-import Committes from './Components/Committes';
+import Program from './Components/Program';
 function App() {
   const RouterObj=createBrowserRouter([
     {
@@ -20,8 +20,8 @@ function App() {
           element: <Registration />
         },
         {
-          path:'/version/committees',
-          element: <Committes />
+          path:'/version/program',
+          element: <Program />
         }
       ]
     }
