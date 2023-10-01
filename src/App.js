@@ -4,6 +4,7 @@ import RootLayout from './Components/RootLayout';
 import { createBrowserRouter, RouterProvider,} from "react-router-dom";
 import Registration from './Components/Registration';
 import Program from './Components/Program';
+import Submission from './Components/Submission'
 function App() {
   const RouterObj=createBrowserRouter([
     {
@@ -22,6 +23,10 @@ function App() {
         {
           path:'/version/program',
           element: <Program />
+        },
+        {
+          path:'/version/submission',
+          element: <Submission />
         }
       ]
     }

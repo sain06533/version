@@ -1,28 +1,33 @@
 * {
-    margin: 0;
-    padding: 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
-  }
-
-.cta {
-    display: inline-block;
-    background-color: rgb(3, 208, 208);
-    color: #fff;
-    padding: 10px 10px 10px 10px;
-    margin: 5%;
-    text-decoration: none;
-    border-radius: 5px;
-    scale: 1.25;
-  }
-  .webpage{
-    display: flex;
-    position: relative;
-    justify-content: space-evenly;
-    text-align: justify;
+}
+table {
+  width: 60%;
+  margin: auto;
+  margin-bottom: 20px;
+  border: black 2px solid;
   
 }
 
-.main{
-    margin-left: 5%;
-    margin-right: 5%;
+thead {
+  background-color: #f2f2f2;
+  
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+td{
+  text-align: center;
+
+}
+th {
+  font-weight: bold;
+}
+tr:hover {
+  background-color: #ff4747;
+}
+.tar{
+  border: #6b6b6b 2px solid;
 }

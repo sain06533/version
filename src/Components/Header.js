@@ -6,7 +6,6 @@ import { animateScroll as scroll } from 'react-scroll';
 
 function Header() {
   const scrollToItem = () => {
-    // Scroll to a specific item (you'll need to adjust this based on your item)
     scroll.scrollTo(1500); // Scroll to the position 1000 (pixels)
   };
   return (
@@ -22,7 +21,7 @@ function Header() {
             
             <button className='s_navbar_button'><Link to="/version/register">Registration</Link></button>
             <button className='s_navbar_button'><Link to="/version/program">Program</Link></button>
-            <button className='s_navbar_button'>Submisssion</button>
+            <button className='s_navbar_button'><Link to="/version/submission">Submisssion</Link></button>
             <button className='s_navbar_button'>Calls</button>
             <button className='s_navbar_button'>Practical Info</button>
             <button className='s_navbar_button'>Sponsorship</button>
